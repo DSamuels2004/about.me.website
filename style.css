@@ -20,14 +20,14 @@
 body {
 font-family: Lora, serif;
 margin: 20px;
-background-color: #fb9bb9; /* Light pink background */
+background-color: #4492F2; /* Blue background */
 }
 /* Headings*/
 h1 {
-color: #f96995; /* Darker pink color */
+color: #3C8EF5; /* Diff blue color */
 }
 h2 {
-color: #f96995; /* Darker pink shade */
+color: #3C8EF5; /* Diff blue shade */
 margin-bottom: 4px;
 }
 h3 {
@@ -41,12 +41,12 @@ font-size: 15px;
 }
 /* Section containers */
 section {
-border: 5px solid #fa82a7; /* Change border color or remove */
+border: 5px solid #44C9F2; /* Change border color or remove */
 padding: 13px; /* Change padding or remove */
-margin-bottom: 20px;
-margin-top: 20px;
-margin-right: 75px;
-margin-left: 75px;
+margin-bottom: 25px;
+margin-top: 25px;
+margin-right: 85px;
+margin-left: 85px;
 background: white;
 overflow: hidden; /* Contains floated elements like img */
 }
