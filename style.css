@@ -31,13 +31,13 @@ color: #3C8EF5; /* Diff blue shade */
 margin-bottom: 4px;
 }
 h3 {
-color: #000000; /* black */
+color: #4487F2; /* diff blue shade */
 text-align: centered;
 }
 /* Paragraphs */
 p {
 color: #4487F2;
-font-size: 25px;
+font-size: 19px;
 }
 /* Section containers */
 section {
@@ -52,6 +52,6 @@ overflow: hidden; /* Contains floated elements like img */
 }
 img {
   display: block;
-  border: #000000 solid 2px;
+  border: #4487F2 solid 2px;
   float: right;
 }
