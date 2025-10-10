@@ -58,35 +58,22 @@ img {
 ul {
   color: #4487F2;
 }
-/* Flexbox */
 .container {
-  display: flex;       /* turn on flexbox */
-  flex-wrap: wrap;     /* allow items to wrap onto new lines */
-  gap: 10px;           /* add space between items */
-  background: #f0f0f0; /* just to see the container */
+  display: flex;
+  flex-wrap: wrap;     
+  gap: 10px;
+  background: #f0f0f0;
   padding: 10px;
 }
 
 .item {
-  flex: 1 1 150px;     /* grow, shrink, and have a base width of 150px */
-  background: lightblue;
-  padding: 20px;
-  text-align: center;
+  flex: 1 1 150px;     
   border-radius: 8px;
+  overflow: hidden;  /* makes sure images don’t spill out of the box */
 }
 
-.container {
-  display: flex;       /* turn on flexbox */
-  flex-wrap: wrap;     /* allow items to wrap onto new lines */
-  gap: 10px;           /* add space between items */
-  background: #f0f0f0; /* just to see the container */
-  padding: 10px;
-}
-
-.item {
-  flex: 1 1 150px;     /* grow, shrink, and have a base width of 150px */
-  background: lightblue;
-  padding: 20px;
-  text-align: center;
-  border-radius: 8px;
+.item img {
+  width: 100%;     /* make images fill the item box */
+  height: auto;    /* keep aspect ratio */
+  display: block;  /* remove extra space under images */
 }
